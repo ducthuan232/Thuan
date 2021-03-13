@@ -12,7 +12,8 @@ public class TinhLai {
                 default:
                     System.out.println("số tiền sau " + i + " năm là: " + (double) Math.round(tien * 100) / 100 + " " + tiente);
             }
-            tien = 0;
+
+            int z;
         }
     }
 
