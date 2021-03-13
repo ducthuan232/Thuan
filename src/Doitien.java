@@ -11,7 +11,6 @@ public class Doitien {
         final double VND = 27483.84;
         double x = 1, y = 1;
         double vao, ra;
-
         switch (a) {
             case "Euro":
                 x = 1;
