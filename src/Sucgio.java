@@ -6,7 +6,7 @@ public class Sucgio {
          */
 
         if(t<=50 &&v<=130 && v>=3){
-            double w=35.74 + 0.6215*t +(0.4275-35.75)*Math.pow(v,0.16);
+            double w=35.74 + 0.6215*t +(0.4275*t-35.75)*Math.pow(v,0.16);
             System.out.print("Giá trị sức gió: "+(double)Math.round(w*100000)/100000);
         }
 
